@@ -1,4 +1,4 @@
-@import-normalize; /* bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap'); /* bring in normalize.css styles */
 
 body {
   margin: 0;
@@ -7,9 +7,23 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f1ebeb;
+  color: #222;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 50px auto;
 }

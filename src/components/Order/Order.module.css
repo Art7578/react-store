@@ -1,0 +1,32 @@
+.item {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.image {
+    width: 90px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.price {
+    color: #5fa36a;
+    font-weight: 600;
+}
+.delete_icon {
+    color: #ca5252;
+    float: right;
+    position: relative;
+    top: -25px;
+    cursor: pointer;
+    transition: color, transform 500ms ease;
+}
+
+.delete_icon:hover {
+    color: #d83030;
+    transform: scale(1.5);
+}
